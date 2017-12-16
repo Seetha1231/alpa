@@ -8,4 +8,4 @@ try:
 		t=t+1
 	print(t)
 except:
-	print('invalid
+	print('invalid')
