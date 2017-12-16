@@ -1,8 +1,3 @@
-# your code goes here
-# your code goes here
-# your code goes here
-# your code goes here
-# your code goes here
 try:
 	s=int(input())
 	e=int(input())
