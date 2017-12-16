@@ -13,3 +13,4 @@ def rom_to_int(string):
 
     return returnint
 rom=input()
+print(rom_to_int(rom))
