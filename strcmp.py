@@ -11,5 +11,5 @@ def main():
 		s2=input()
 		compare(s1,s2)
 	except:
-		print('nvalid')
+		print('invalid')
 main()
