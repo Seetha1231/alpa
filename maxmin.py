@@ -5,7 +5,7 @@ def countd(l,n):
 			max=l[i]
 		if min>l[i]:
 			min=l[i]
-	print(max,min)
+	print(min,max)
 def main():
 	try:
 		l=[]
