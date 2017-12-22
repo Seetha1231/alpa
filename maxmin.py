@@ -10,7 +10,8 @@ def main():
 	try:
 		l=[]
 		n=int(input())
-		l.append(int(input()))
+		for i in range(n):
+			l.append(int(input()))
 		countd(l,n)
 	except:
 		print('invalid')
