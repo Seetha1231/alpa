@@ -5,5 +5,9 @@ def uniq(string):
 			continue
 		r.append(string[i])
 	print(''.join(r))
+def main():
+	str=input()
+	uniq(str)
+main()
  
    
