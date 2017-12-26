@@ -1,4 +1,4 @@
-def max(l):
+def maxl(l):
 	max=0
 	for i in l:
 		if max<i:
@@ -7,7 +7,7 @@ def max(l):
 def main():
 	try:
 		l=[1,2,3,5,4,77,4,24,52,4]
-		max(l)
+		maxl(l)
 	except:
 		print('invalid')
 main()
