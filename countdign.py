@@ -1,4 +1,4 @@
-def countd(n):
+def countdigs(n):
 	c=0
 	while(n!=0):
 		n//=10
@@ -7,7 +7,7 @@ def countd(n):
 def main():
 	try:
 		n=int(input())
-		countd(n)
+		countdigs(n)
 	except:
 		print('invalid')
 main()
