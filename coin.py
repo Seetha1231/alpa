@@ -17,4 +17,7 @@ def main():
 		l.append(int(input()))
 	coin(n,l,t)
 
-main()
+try:
+	main()
+except:
+	print('invalid')
