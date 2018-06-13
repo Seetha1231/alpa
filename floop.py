@@ -1,8 +1,9 @@
 try:
-	n=int(input())
+	n,k=map(int,input().split())
+	l=list(map(int,input().split()))
 	sum=0
-	for i in range(1,n+1):
-		sum+=i
+	for i in range(k):
+		sum+=l[i]
 	print(sum)
 except :
 	print("invalid integer")
